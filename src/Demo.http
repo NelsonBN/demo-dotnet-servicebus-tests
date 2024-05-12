@@ -1,0 +1,8 @@
+@Host = http://localhost:8080
+
+POST {{Host}}/send-message
+Content-Type: application/json
+
+{
+    "body": "my message..."
+}
